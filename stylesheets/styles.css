@@ -1,0 +1,51 @@
+body{ 
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif ;
+    margin: 10px;
+    overflow-x: hidden;
+}
+
+.BoxArticolo{ 
+    border: rgb(46, 46, 46) 3px dashed;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
+}
+
+#noSottolineato{ 
+    text-decoration: none;
+}
+#immagine{ 
+    width: 50%;
+}
+
+nav{ 
+    width: 100vw;
+    height: 4rem;
+}
+nav h1{ 
+    padding-left: 10px;
+}
+nav ul{ 
+    list-style: none;
+    float: right;
+    transform: translate(-2rem, -3.5rem);
+}
+nav ul li{ 
+    display: inline-block;
+    transition: .5s;
+}
+nav ul li a{ 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav ul li:hover{ 
+    background-color:rgb(61, 61, 61);
+}
